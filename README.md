@@ -9,9 +9,14 @@
 5. Also screenshot the log of the training (for reference). 
 6. Find the epoch number where the validation accuracy is maximum. If there are several candidates, select the least validation loss
 
+Note: Create folders that corresponds to all the architectures to be trained. directory should be models/{name of architeture}. 
+
 ## In predict.py
 1. On line 16, select the .h5 file that corresponds to the epoch with the highest validation accuracy. 
 2. Run the code
 3. Take a screenshot of the confusion matrix
 
 Note: If there is an error with regards to importing the libraries, remove tensorflow and just import keras
+
+## Link to the Dataset:
+https://drive.google.com/drive/folders/1rCnpgEak5FkuQ7WGDMpKWYVEsjLcURYx?usp=sharing
